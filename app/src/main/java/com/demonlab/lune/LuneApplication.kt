@@ -1,17 +1,27 @@
 package com.demonlab.lune
 
 import android.app.Application
-import coil.ImageLoader
-import coil.ImageLoaderFactory
-import com.demonlab.lune.tools.AudioThumbnailFetcher
+import android.app.Activity
+import android.os.Bundle
+import androidx.core.view.WindowCompat
 
-class LuneApplication : Application(), ImageLoaderFactory {
-    override fun newImageLoader(): ImageLoader {
-        return ImageLoader.Builder(this)
-            .components {
-                add(AudioThumbnailFetcher.Factory(this@LuneApplication))
+class LuneApplication : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+
+        // مراقبة التطبيق بالكامل ومطالبة أي شاشة تفتح باحترام أزرار النظام السفلية
+        registerActivityLifecycleCallbacks(object : ActivityLifecycleCallbacks {
+            override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
+                // إجبار الأنشطة على إظهار محتواها متوافقاً مع شريط أزرار التنقل السفلي
+                WindowCompat.setDecorFitsSystemWindows(activity.window, true)
             }
-            .crossfade(true)
-            .build()
+            override fun onActivityStarted(activity: Activity) {}
+            override fun onActivityResumed(activity: Activity) {}
+            override fun onActivityPaused(activity: Activity) {}
+            override fun onActivityStopped(activity: Activity) {}
+            override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {}
+            override fun onActivityDestroyed(activity: Activity) {}
+        })
     }
 }
