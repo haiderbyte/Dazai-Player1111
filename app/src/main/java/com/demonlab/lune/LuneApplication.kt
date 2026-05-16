@@ -13,8 +13,8 @@ class LuneApplication : Application() {
         // مراقبة التطبيق بالكامل ومطالبة أي شاشة تفتح باحترام أزرار النظام السفلية
         registerActivityLifecycleCallbacks(object : ActivityLifecycleCallbacks {
             override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
-                // إجبار الأنشطة على إظهار محتواها متوافقاً مع شريط أزرار التنقل السفلي
-                WindowCompat.setDecorFitsSystemWindows(activity.window, true)
+                // استخدم false للـ Compose لدعم edge-to-edge والتوافق مع Scaffold(WindowInsets)
+                WindowCompat.setDecorFitsSystemWindows(activity.window, false)
             }
             override fun onActivityStarted(activity: Activity) {}
             override fun onActivityResumed(activity: Activity) {}
