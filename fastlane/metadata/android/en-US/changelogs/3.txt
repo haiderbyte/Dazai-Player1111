@@ -1,0 +1,1 @@
+Fix failure to load album art in some cases

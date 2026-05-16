@@ -1,0 +1,2 @@
+Add French Language
+Fix playlist and artist search results bug

@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">Lune</string>
+    <string name="settings">Paramètres</string>
+    <string name="about">À propos</string>
+    <string name="version">Version</string>
+    <string name="license">Licence</string>
+    <string name="author">Auteur</string>
+    <string name="hifi_audio">Audio Hi-Fi</string>
+    <string name="hifi_desc">Activer la détection et les badges Hi-Fi</string>
+
+    <string name="general">Général</string>
+    <string name="cinematic_player">Lecteur Cinématique</string>
+    <string name="cinematic_player_desc">Active une interface immersive avec pochette animée et dégradé fluide.</string>
+    <string name="shortcut_playlists">Playlists</string>
+    <string name="backup">Sauvegarde</string>
+    <string name="security">Sécurité</string>
+
+    <!-- UI/Player Strings -->
+    <string name="eq_title">Égaliseur</string>
+    <string name="eq_empty_hint">Lancez une chanson pour configurer l’égaliseur</string>
+    <string name="bass_label">BASSES</string>
+    <string name="spatial_audio_label">Audio Spatial</string>
+    <string name="restore_defaults">Restaurer par défaut</string>
+
+    <!-- EQ Bands -->
+    <string name="band_sub_bass">Sub-basses</string>
+    <string name="band_bass">Basses</string>
+    <string name="band_mid">Médiums</string>
+    <string name="band_presence">Présence</string>
+    <string name="band_brilliance">Brillance</string>
+
+    <!-- Metadata Editor -->
+    <string name="edit_title">Titre</string>
+    <string name="edit_artist">Artiste</string>
+    <string name="edit_album">Album</string>
+    <string name="edit_genre">Genre</string>
+    <string name="save_changes">Enregistrer les modifications</string>
+    <string name="restore">Restaurer</string>
+
+    <!-- Library Tabs -->
+    <string name="tab_resume">Résumé</string>
+    <string name="resume_recommendations">Recommandations</string>
+    <string name="resume_top_playlists">Playlists les plus écoutées</string>
+    <string name="resume_recently_added">Ajoutées récemment</string>
+    <string name="tab_all">Tout</string>
+    <string name="tab_favorites">Favoris</string>
+    <string name="tab_songs">Chansons</string>
+    <string name="tab_albums">Artistes</string>
+
+    <!-- Player Options -->
+    <string name="option_shuffle">Lecture aléatoire</string>
+    <string name="option_crossfade">Fondu enchaîné</string>
+    <string name="option_automix">Automix</string>
+    <string name="option_timer">Minuteur</string>
+    <string name="option_lyrics">Paroles</string>
+    <string name="transition_mixing">Mixage</string>
+    <string name="transition_crossfade">Fondu enchaîné</string>
+    <string name="unknown_artist">Artiste inconnu</string>
+    <string name="unknown_album">Album inconnu</string>
+    <string name="unknown_song">Chanson inconnue</string>
+    <string name="most_played_desc">La plus écoutée</string>
+
+    <!-- Accessibility / Icons -->
+    <string name="cd_menu">Menu</string>
+    <string name="cd_edit">Modifier</string>
+    <string name="cd_previous">Précédent</string>
+    <string name="cd_next">Suivant</string>
+    <string name="cd_back">Retour</string>
+    <string name="cd_restore">Restaurer</string>
+
+    <!-- Other UI -->
+    <string name="filter_folders">Filtrer les dossiers</string>
+    <string name="option_favorite">Favori</string>
+
+    <string name="language">Langue</string>
+    <string name="select_language">Sélectionner la langue</string>
+    <string name="lang_system">Système</string>
+    <string name="lang_english">Anglais</string>
+    <string name="lang_spanish">Espagnol</string>
+    <string name="lang_portuguese">Portugais</string>
+    <string name="lang_french">Français</string>
+
+    <string name="ok">OK</string>
+    <string name="cd_edit_folders">Modifier les dossiers</string>
+    <string name="cd_activate_eq">Activer l’EQ</string>
+    <string name="cd_play_pause">Lecture/Pause</string>
+    <string name="cd_change_cover">Changer la pochette</string>
+    <string name="playlists">Playlists</string>
+    <string name="playlist">Playlist</string>
+    <string name="add_to_playlist">Ajouter à la playlist</string>
+    <string name="create_playlist">Créer une playlist</string>
+    <string name="playlist_name">Nom de la playlist</string>
+    <string name="edit_playlist_name">Modifier le nom de la playlist</string>
+    <string name="cancel">Annuler</string>
+    <string name="create">Créer</string>
+    <string name="save">Enregistrer</string>
+    <string name="no_playlists">Aucune playlist créée pour le moment</string>
+    <string name="no_songs_in_playlist">Aucune chanson dans cette playlist</string>
+    <string name="theme_auto">Automatique (Système)</string>
+    <string name="theme_light">Mode Clair</string>
+    <string name="theme_dark">Mode Sombre</string>
+    <string name="add_songs">Ajouter des chansons</string>
+    <string name="search_songs">Rechercher des chansons…</string>
+    <string name="save_selection">Enregistrer</string>
+    <string name="delete_song">Supprimer de l’appareil</string>
+    <string name="delete_song_warning">Êtes-vous sûr ? Cette chanson sera supprimée définitivement de votre appareil.</string>
+    <string name="restore_music">Restaurer</string>
+    <string name="song_deleted">Chanson supprimée</string>
+    <string name="play_playlist">Lire la playlist</string>
+    <string name="edit_name">Modifier le nom</string>
+    <string name="search">Rechercher</string>
+    <string name="search_hint">Rechercher des chansons, artistes ou playlists...</string>
+    <string name="cd_add_to_playlist">Ajouter à la playlist</string>
+    <string name="delete_playlist">Supprimer la playlist</string>
+    <string name="delete_playlist_confirm">Êtes-vous sûr de vouloir supprimer cette playlist ?</string>
+    <string name="delete">Supprimer</string>
+    <string name="custom_title">Titre personnalisé</string>
+    <string name="custom_title_desc">Modifier le titre de la barre principale</string>
+    <string name="restore_default_title">Restaurer l’original</string>
+    <string name="categories">Catégories</string>
+    <string name="edit_information">Modifier les informations</string>
+    <string name="info_updated">Informations mises à jour</string>
+    <string name="info_restored">Informations restaurées</string>
+    <string name="player_queue">File d’attente</string>
+    <string name="player_options">Options</string>
+    <string name="option_share">Partager</string>
+    <string name="option_repeat_one">Répéter une fois</string>
+    <string name="option_repeat_all">Tout répéter</string>
+    <string name="option_repeat_off">Pas de répétition</string>
+    <string name="output_speaker">Téléphone</string>
+    <string name="output_headphones">Écouteurs</string>
+    <string name="output_bluetooth">Bluetooth</string>
+    <string name="queue_now_playing">Lecture en cours</string>
+    <string name="queue_up_next">À suivre</string>
+    <string name="option_visualizer">Visualiseur</string>
+    <string name="visualizer_full_player">Afficher dans le grand lecteur</string>
+    <string name="visualizer_mini_player">Afficher dans le mini lecteur</string>
+    <string name="credits">Crédits</string>
+    <string name="credits_desc">Tests, suggestions de design et logo</string>
+    <string name="creator_desc">Créateur et mainteneur du lecteur Lune Music</string>
+    <string name="github">GitHub</string>
+    <string name="donation">Don</string>
+
+    <!-- Users -->
+    <string name="demon">MrDemonc</string>
+    <string name="desukia">Desukia</string>
+
+    <!-- Open Source Libraries -->
+    <string name="open_source_libraries">Bibliothèques Open Source</string>
+    <string name="coil_desc">Chargement d’images pour Android basé sur Kotlin Coroutines.\nLicence : Apache License 2.0</string>
+
+    <string name="gson_desc">Bibliothèque Java de sérialisation/désérialisation pour convertir des objets Java en JSON et inversement.\nLicence : Apache License 2.0</string>
+    <string name="room_desc">La bibliothèque de persistance Room fournit une couche d’abstraction au-dessus de SQLite.\nLicence : Apache License 2.0</string>
+    <string name="compose_desc">Le kit d’outils Android moderne pour créer des interfaces utilisateur natives.\nLicence : Apache License 2.0</string>
+    <string name="jaudiotagger_desc">Bibliothèque de balisage audio pour éditer et lire des formats de tags comme ID3, Vorbis et FLAC.\nLicence : LGPL v2.1</string>
+    <string name="quicksand_desc">Quicksand est une police sans-serif conçue par Andrew Paglinawan.\nLicence : SIL Open Font License 1.1</string>
+
+    <string name="permissions">Permissions</string>
+    <string name="permissions_desc">Informations sur les permissions utilisées</string>
+    <string name="perm_storage_title">Accès au stockage</string>
+    <string name="perm_storage_desc">Nécessaire pour analyser les fichiers musicaux et gérer les dossiers sur votre appareil.</string>
+    <string name="perm_notifications_title">Notifications</string>
+    <string name="perm_notifications_desc">Requis pour afficher les contrôles de lecture et les informations dans la barre de notifications.</string>
+
+    <string name="perm_bluetooth_title">Bluetooth</string>
+    <string name="perm_bluetooth_desc">Requis pour détecter et gérer les connexions avec des appareils audio Bluetooth.</string>
+    <string name="perm_audio_service_title">Service de lecture</string>
+    <string name="perm_audio_service_desc">Permet à l’application de continuer à lire de la musique en arrière-plan ou lorsque l’écran est éteint.</string>
+    <string name="perm_record_audio_title">Enregistrer l’audio</string>
+    <string name="perm_record_audio_desc">Nécessaire pour que le visualiseur audio traite et affiche les données de fréquence en temps réel.</string>
+
+    <!-- Playlist Export/Import -->
+    <string name="export_playlists">Exporter les playlists</string>
+    <string name="export_playlists_desc">Enregistrer vos playlists dans un fichier</string>
+    <string name="import_playlists">Importer des playlists</string>
+    <string name="import_playlists_desc">Restaurer des playlists depuis un fichier</string>
+    <string name="export_success">Playlists exportées avec succès</string>
+    <string name="export_error">Erreur lors de l’exportation des playlists</string>
+    <string name="import_success">Playlists importées avec succès</string>
+    <string name="import_error">Erreur lors de l’importation des playlists</string>
+    <string name="no_file_selected">Aucun fichier sélectionné</string>
+    <string name="song_singular">chanson</string>
+    <string name="song_plural">chansons</string>
+    <string name="no_music_available">Aucune musique disponible</string>
+    <string name="permission_required">Permission requise</string>
+
+    <!-- Welcome Card -->
+    <string name="welcome_morning">Bonjour</string>
+    <string name="welcome_noon">Bon midi</string>
+    <string name="welcome_afternoon">Bon après-midi</string>
+    <string name="welcome_evening">Bonsoir</string>
+    <string name="welcome_night">Bonne nuit</string>
+    <string name="welcome_early_morning">Bonne fin de nuit</string>
+    <string name="stats_listening_today">Temps d’écoute aujourd’hui</string>
+    <string name="stats_hours_unit">%dh</string>
+    <string name="stats_minutes_unit">%dmin</string>
+    <string name="stats_seconds_unit">%ds</string>
+    <string name="total_songs">Nombre total de chansons</string>
+    <string name="stats_top_playlist">Ta playlist du moment</string>
+    <string name="stats_top_songs">Chansons du moment</string>
+    <string name="stats_artist_moment">Artiste du moment</string>
+    <string name="stats_playlist_message">Cette playlist tourne en boucle ! </string>
+    <string name="stats_songs_message">Tes morceaux les plus écoutés ! </string>
+    <string name="stats_music_unit">de musique</string>
+    <string name="stats_loading_hits">Chargement de tes hits…</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_description">Le lecteur de musique le plus avancé pour votre appareil.</string>
+    <string name="onboarding_start_button">Commencer</string>
+    <string name="onboarding_perm_audio_title">Enregistrer l’audio</string>
+    <string name="onboarding_perm_required">Permission nécessaire</string>
+    <string name="onboarding_perm_audio_desc">Nécessaire pour que le visualiseur audio traite et affiche les données de fréquence en temps réel pendant l’écoute de votre musique.</string>
+    <string name="onboarding_grant_button">Accorder la permission</string>
+    <string name="onboarding_next_button">Suivant</string>
+    <string name="onboarding_perm_bluetooth_title">Bluetooth</string>
+    <string name="onboarding_perm_bluetooth_desc">Requis pour détecter et gérer les connexions avec des appareils audio Bluetooth pour une meilleure expérience.</string>
+    <string name="onboarding_perm_notifications_title">Notifications</string>
+    <string name="onboarding_perm_notifications_desc">Nécessaire pour afficher les contrôles du lecteur de musique dans la barre d’état et sur l’écran verrouillé, vous permettant de contrôler la lecture à tout moment.</string>
+    <string name="onboarding_perm_music_title">Musique et fichiers</string>
+    <string name="onboarding_perm_music_desc">Essentiel pour analyser, indexer et lire votre collection musicale stockée sur cet appareil.</string>
+    <string name="onboarding_perm_manage_files_title">Accès au dossier musical</string>
+    <string name="onboarding_perm_manage_files_desc">Sélectionnez votre dossier musical pour permettre à Lune d’organiser et gérer votre bibliothèque en toute sécurité.</string>
+    <string name="onboarding_welcome_back">Bienvenue sur Lune</string>
+    <string name="onboarding_listen_style">Écoutez avec style</string>
+    <string name="onboarding_feature_hifi">Prise en charge audio HiFi</string>
+
+    <string name="onboarding_feature_title">Titre personnalisé</string>
+    <string name="onboarding_feature_lyrics">Paroles dynamiques</string>
+    <string name="onboarding_feature_mix">Fondu enchaîné et Automix</string>
+    <string name="onboarding_feature_more">Et bien plus encore…</string>
+    <string name="onboarding_finish_button">Terminer</string>
+    <string name="onboarding_skip_button">Ignorer pour le moment</string>
+    <string name="onboarding_reminder_title">Vous gardez le contrôle</string>
+    <string name="onboarding_reminder_desc">Si vous avez ignoré une permission, vous pourrez facilement l’activer plus tard dans Paramètres > Sécurité > Permissions.</string>
+    <string name="onboarding_reminder_button">Compris</string>
+</resources>

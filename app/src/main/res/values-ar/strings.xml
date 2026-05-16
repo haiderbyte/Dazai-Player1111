@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">لُنَّة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="about">حول التطبيق</string>
+    <string name="version">الإصدار</string>
+    <string name="license">الترخيص</string>
+    <string name="author">المؤلف</string>
+    <string name="hifi_audio">صوت عالي الدقة (Hi-Fi)</string>
+    <string name="hifi_desc">تمكين كشف وعلامات صوت Hi-Fi</string>
+
+    <string name="general">عام</string>
+    <string name="cinematic_player">المشغل السينمائي</string>
+    <string name="cinematic_player_desc">يُفعّل واجهة غامرة مع صور متحركة للأغلفة وتدرجات لونية سلسة.</string>
+    <string name="shortcut_playlists">قوائم التشغيل</string>
+    <string name="backup">النسخ الاحتياطي</string>
+    <string name="security">الأمان</string>
+
+    <!-- UI/Player Strings -->
+    <string name="eq_title">المعادل الصوتي</string>
+    <string name="eq_empty_hint">شغّل أغنية لضبط المعادل الصوتي</string>
+    <string name="bass_label">الصوت المنخفض (BASS)</string>
+    <string name="spatial_audio_label">الصوت المكاني (Spatial Audio)</string>
+    <string name="restore_defaults">استعادة القيم الافتراضية</string>
+    
+    <!-- EQ Bands -->
+    <string name="band_sub_bass">الصوت المنخفض جداً (Sub Bass)</string>
+    <string name="band_bass">الصوت المنخفض (Bass)</string>
+    <string name="band_mid">الصوت المتوسط (Mid)</string>
+    <string name="band_presence">الوضوح (Presence)</string>
+    <string name="band_brilliance">الإشراق (Brilliance)</string>
+
+    <!-- Metadata Editor -->
+    <string name="edit_title">العنوان</string>
+    <string name="edit_artist">الفنان</string>
+    <string name="edit_album">الألبوم</string>
+    <string name="edit_genre">النوع</string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="restore">استعادة</string>
+
+    <!-- Library Tabs -->
+    <string name="tab_resume">استئناف</string>
+    <string name="resume_recommendations">التوصيات</string>
+    <string name="resume_top_playlists">قوائم التشغيل الأعلى</string>
+    <string name="resume_recently_added">المضافة مؤخراً</string>
+    <string name="tab_all">الكل</string>
+    <string name="tab_favorites">المفضلة</string>
+    <string name="tab_songs">الأغاني</string>
+    <string name="tab_albums">الفنانين</string>
+
+    <!-- Player Options -->
+    <string name="option_shuffle">خلط</string>
+    <string name="option_crossfade">تداخل تلقائي (Crossfade)</string>
+    <string name="option_automix">خلط تلقائي (Automix)</string>
+    <string name="option_timer">المؤقت</string>
+    <string name="option_lyrics">كلمات الأغاني</string>
+    <string name="transition_mixing">الخلط</string>
+    <string name="transition_crossfade">تداخل تلقائي (Crossfade)</string>
+    <string name="unknown_artist">فنان غير معروف</string>
+    <string name="unknown_album">ألبوم غير معروف</string>
+    <string name="unknown_song">أغنية غير معروفة</string>
+    <string name="most_played_desc">الأكثر تشغيلاً</string>
+    
+    <!-- Accessibility / Icons -->
+    <string name="cd_menu">القائمة</string>
+    <string name="cd_edit">تعديل</string>
+    <string name="cd_previous">السابق</string>
+    <string name="cd_next">التالي</string>
+    <string name="cd_back">العودة</string>
+    <string name="cd_restore">استعادة</string>
+    
+    <!-- Other UI -->
+    <string name="filter_folders">تصفية المجلدات</string>
+    <string name="option_favorite">المفضلة</string>
+
+    <string name="language">اللغة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="lang_system">اللغة الافتراضية للنظام</string>
+    <string name="lang_english">الإنجليزية</string>
+    <string name="lang_spanish">الإسبانية</string>
+    <string name="lang_portuguese">البرتغالية</string>
+    <string name="lang_french">الفرنسية</string>
+
+    <string name="ok">موافق</string>
+    <string name="cd_edit_folders">تعديل المجلدات</string>
+    <string name="cd_activate_eq">تفعيل المعادل الصوتي</string>
+    <string name="cd_play_pause">تشغيل/إيقاف مؤقت</string>
+    <string name="cd_change_cover">تغيير الغلاف</string>
+    <string name="playlists">قوائم التشغيل</string>
+    <string name="playlist">قائمة التشغيل</string>
+    <string name="add_to_playlist">إضافة إلى قائمة التشغيل</string>
+    <string name="create_playlist">إنشاء قائمة تشغيل</string>
+    <string name="playlist_name">اسم قائمة التشغيل</string>
+    <string name="edit_playlist_name">تعديل اسم قائمة التشغيل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="create">إنشاء</string>
+    <string name="save">حفظ</string>
+    <string name="no_playlists">لم يتم إنشاء قوائم تشغيل بعد</string>
+    <string name="no_songs_in_playlist">لا توجد أغاني في هذه القائمة</string>
+    <string name="theme_auto">تلقائي (النظام)</string>
+    <string name="theme_light">الوضع الفاتح</string>
+    <string name="theme_dark">الوضع الداكن</string>
+    <string name="add_songs">إضافة أغاني</string>
+    <string name="search_songs">البحث عن أغاني…</string>
+    <string name="save_selection">حفظ</string>
+    <string name="delete_song">حذف من الجهاز</string>
+    <string name="delete_song_warning">هل أنت متأكد؟ سيتم حذف هذه الأغنية بشكل دائم من جهازك.</string>
+    <string name="restore_music">استعادة</string>
+    <string name="song_deleted">تم حذف الأغنية</string>
+    <string name="play_playlist">تشغيل قائمة التشغيل</string>
+    <string name="edit_name">تعديل الاسم</string>
+    <string name="search">البحث</string>
+    <string name="search_hint">ابحث عن أغاني أو فنانين أو ألبومات...</string>
+    <string name="cd_add_to_playlist">إضافة إلى قائمة التشغيل</string>
+    <string name="delete_playlist">حذف قائمة التشغيل</string>
+    <string name="delete_playlist_confirm">هل أنت متأكد من رغبتك في حذف هذه القائمة؟</string>
+    <string name="delete">حذف</string>
+    <string name="custom_title">عنوان مخصص</string>
+    <string name="custom_title_desc">تغيير عنوان شريط الأدوات الرئيسي</string>
+    <string name="restore_default_title">استعادة الافتراضي</string>
+    <string name="categories">الفئات</string>
+    <string name="edit_information">تعديل المعلومات</string>
+    <string name="info_updated">تم تحديث المعلومات</string>
+    <string name="info_restored">تم استعادة المعلومات</string>
+    <string name="player_queue">قائمة الانتظار</string>
+    <string name="player_options">الخيارات</string>
+    <string name="option_share">مشاركة</string>
+    <string name="option_repeat_one">تكرار واحد</string>
+    <string name="option_repeat_all">تكرار الكل</string>
+    <string name="option_repeat_off">إيقاف</string>
+    <string name="output_speaker">السماعة</string>
+    <string name="output_headphones">سماعات الرأس</string>
+    <string name="no_song_playing">لا يوجد تشغيل</string>
+    <string name="output_bluetooth">بلوتوث</string>
+    <string name="queue_now_playing">يتم التشغيل الآن</string>
+    <string name="queue_up_next">التالي</string>
+    <string name="option_visualizer">المُظهِر البصري</string>
+    <string name="visualizer_full_player">إظهار في المشغل الكامل</string>
+    <string name="visualizer_mini_player">إظهار في المشغل المصغر</string>
+    <string name="credits">الشكر والتقدير</string>
+    <string name="credits_desc">الاختبار، اقتراحات التصميم، والشعار</string>
+    <string name="creator_desc">المُنشئ والمُصان لمشغل موسيقى لُنَّة</string>
+    <string name="github">GitHub</string>
+    <string name="donation">تبرع</string>
+
+    <!-- Users -->
+    <string name="demon">MrDemonc</string>
+    <string name="desukia">Desukia</string>
+
+    <!-- Open Source Libraries -->
+    <string name="open_source_libraries">مكتبات مفتوحة المصدر</string>
+    <string name="coil_desc">تحميل الصور للأندرويد مدعوم由 Kotlin Coroutines.\nالترخيص: Apache License 2.0</string>
+
+    <string name="gson_desc">مكتبة جافا لتسلسل/عكس التسلسل لتحويل كائنات جافا إلى JSON والعكس.\nالترخيص: Apache License 2.0</string>
+    <string name="room_desc">مكتبة Room للتخزين توفر طبقة تجريد فوق SQLite.\nالترخيص: Apache License 2.0</string>
+    <string name="compose_desc">أداة التطوير الحديثة للأندرويد لبناء واجهات المستخدم الأصلية.\nالترخيص: Apache License 2.0</string>
+    <string name="jaudiotagger_desc">مكتبة تعليم وقراءة علامات الصوت مثل ID3 وVorbis وFLAC.\nالترخيص: LGPL v2.1</string>
+    <string name="quicksand_desc">Quicksand هو خط sans-serif صممه Andrew Paglinawan.\nالترخيص: SIL Open Font License, 1.1</string>
+
+    <string name="permissions">الأذونات</string>
+    <string name="permissions_desc">معلومات حول الأذونات المستخدمة</string>
+    <string name="perm_storage_title">الوصول إلى التخزين</string>
+    <string name="perm_storage_desc">مطلوب لمسح ملفات الموسيقى وإدارة المجلدات على جهازك.</string>
+    <string name="perm_notifications_title">الإشعارات</string>
+    <string name="perm_notifications_desc">مطلوب لإظهار أدوات التحكم والمعلومات في شريط الإشعارات.</string>
+
+    <string name="perm_bluetooth_title">بلوتوث</string>
+    <string name="perm_bluetooth_desc">مطلوب لكشف وإدارة الاتصالات مع أجهزة الصوت عبر بلوتوث.</string>
+    <string name="perm_audio_service_title">خدمة التشغيل</string>
+    <string name="perm_audio_service_desc">يُمكّن التطبيق من الاستمرار في تشغيل الموسيقى في الخلفية أو مع إيقاف الشاشة.</string>
+    <string name="perm_record_audio_title">تسجيل الصوت</string>
+    <string name="perm_record_audio_desc">ضروري للمُظهِر البصري لمعالجة وعرض بيانات الترددات في الوقت الفعلي.</string>
+
+    <!-- Playlist Export/Import -->
+    <string name="export_playlists">تصدير قوائم التشغيل</string>
+    <string name="export_playlists_desc">حفظ قوائم التشغيل إلى ملف</string>
+    <string name="import_playlists">استيراد قوائم التشغيل</string>
+    <string name="import_playlists_desc">استعادة قوائم التشغيل من ملف</string>
+    <string name="export_success">تم تصدير قوائم التشغيل بنجاح</string>
+    <string name="export_error">خطأ في تصدير قوائم التشغيل</string>
+    <string name="import_success">تم استيراد قوائم التشغيل بنجاح</string>
+    <string name="import_error">خطأ في استيراد قوائم التشغيل</string>
+    <string name="no_file_selected">لم يتم اختيار ملف</string>
+    <string name="song_singular">أغنية</string>
+    <string name="song_plural">أغاني</string>
+    <string name="no_music_available">لا توجد موسيقى متاحة</string>
+    <string name="permission_required">الحصول على إذن مطلوب</string>
+
+    <!-- Welcome Card -->
+    <string name="welcome_morning">صباح الخير</string>
+    <string name="welcome_noon">نهاركم جميل</string>
+    <string name="welcome_afternoon">مساء الخير</string>
+    <string name="welcome_evening">مساء النور</string>
+    <string name="welcome_night">تصبحوا على خير</string>
+    <string name="welcome_early_morning">صباحكم مبارك</string>
+    <string name="stats_listening_today">وقت الاستماع اليوم</string>
+    <string name="stats_hours_unit">%dساعة</string>
+    <string name="stats_minutes_unit">%dدقيقة</string>
+    <string name="stats_seconds_unit">%dثانية</string>
+    <string name="total_songs">إجمالي الأغاني</string>
+    <string name="stats_top_playlist">قائمة التشغيل المفضلة لديك</string>
+    <string name="stats_top_songs">أفضل الأغاني</string>
+    <string name="stats_artist_moment">فنان اللحظة</string>
+    <string name="stats_playlist_message">هذه القائمة لا تتوقف عن التشغيل! 🎵</string>
+    <string name="stats_songs_message">أغانيك الأكثر تكراراً! 🔥</string>
+    <string name="stats_music_unit">من الموسيقى</string>
+    <string name="stats_loading_hits">جاري تحميل أغانيك المفضلة…</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_description">مشغل الموسيقى الأكثر تقدماً لجهازك.</string>
+    <string name="onboarding_start_button">البدء</string>
+    <string name="onboarding_perm_audio_title">تسجيل الصوت</string>
+    <string name="onboarding_perm_required">الحصول على إذن مطلوب</string>
+    <string name="onboarding_perm_audio_desc">ضروري للمُظهِر البصري لمعالجة وعرض بيانات الترددات في الوقت الفعلي أثناء استماعك للموسيقى.</string>
+    <string name="onboarding_grant_button">منح الإذن</string>
+    <string name="onboarding_next_button">التالي</string>
+    <string name="onboarding_perm_bluetooth_title">بلوتوث</string>
+    <string name="onboarding_perm_bluetooth_desc">مطلوب لكشف وإدارة الاتصالات مع أجهزة الصوت عبر بلوتوث لتجربة استماع أفضل.</string>
+    <string name="onboarding_perm_notifications_title">الإشعارات</string>
+    <string name="onboarding_perm_notifications_desc">ضروري لإظهار أدوات التحكم في مشغل الموسيقى في شريط الحالة وقفل الشاشة، مما يسمح لك بالتحكم في التشغيل في أي وقت.</string>
+    <string name="onboarding_perm_music_title">الموسيقى والصوت</string>
+    <string name="onboarding_perm_music_desc">أساسي لمسح وفهرسة ومكتبة الموسيقى المخزنة على هذا الجهاز.</string>
+    <string name="onboarding_perm_manage_files_title">الوصول إلى مجلد الموسيقى</string>
+    <string name="onboarding_perm_manage_files_desc">اختر مجلد الموسيقى الخاص بك للسماح لـ لُنَّة بتنظيم وإدارة مكتبة الموسيقى الخاصة بك بأمان.</string>
+    <string name="onboarding_welcome_back">مرحباً بك في لُنَّة</string>
+    <string name="onboarding_listen_style">استمع بأناقة</string>
+    <string name="onboarding_feature_hifi">دعم صوت HiFi</string>
+
+    <string name="onboarding_feature_title">عنوان قابل للتخصيص</string>
+    <string name="onboarding_feature_lyrics">كلمات أغانٍ ديناميكية</string>
+    <string name="onboarding_feature_mix">تداخل تلقائي (Crossfade) وخلط تلقائي (Automix)</string>
+    <string name="onboarding_feature_more">ومزيد كثير…</string>
+    <string name="onboarding_finish_button">إنهاء</string>
+    <string name="onboarding_skip_button">تخطي حالياً</string>
+    <string name="onboarding_reminder_title">أنت في التحكم</string>
+    <string name="onboarding_reminder_desc">إذا تخطيت أي إذن، يمكنك تمكينه بسهولة لاحقاً في الإعدادات > الأمان > الأذونات.</string>
+    <string name="onboarding_reminder_button">فهمت</string>
+</resources>
