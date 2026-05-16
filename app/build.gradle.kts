@@ -1,7 +1,6 @@
 import java.util.Properties
 import java.io.FileInputStream
 
-
 val keystorePropertiesFile = rootProject.file("keystore.properties")
 val keystoreProperties = Properties()
 
@@ -38,10 +37,12 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file(keystoreProperties["storeFile"] as String)
-            storePassword = keystoreProperties["storePassword"] as String
-            keyAlias = keystoreProperties["keyAlias"] as String
-            keyPassword = keystoreProperties["keyPassword"] as String
+            // حل الأمان الصفري لتجنب انهيار السيرفر عند غياب ملف keystore
+            val sFile = keystoreProperties["storeFile"]?.toString() ?: ""
+            storeFile = if (sFile.isNotEmpty()) file(sFile) else file("mock.keystore")
+            storePassword = keystoreProperties["storePassword"]?.toString() ?: "password"
+            keyAlias = keystoreProperties["keyAlias"]?.toString() ?: "alias"
+            keyPassword = keystoreProperties["keyPassword"]?.toString() ?: "password"
         }
     }
 
